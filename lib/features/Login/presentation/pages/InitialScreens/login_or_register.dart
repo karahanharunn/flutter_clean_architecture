@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:testapp/features/Login/presentation/pages/InitialScreens/initial_screen_two.dart';
-import 'package:testapp/features/Login/presentation/pages/InitialScreens/widgets/Information.dart';
-import 'package:testapp/features/Login/presentation/pages/InitialScreens/widgets/page_indicator.dart';
+import 'package:testapp/features/Login/presentation/widgets/Information.dart';
+import 'package:testapp/features/Login/presentation/widgets/page_indicator.dart';
 import 'package:testapp/features/Login/presentation/pages/login_page.dart';
 import 'package:testapp/features/Login/presentation/pages/register_page.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testapp/features/Login/presentation/pages/widgets/input.dart';
+import 'package:testapp/features/Login/presentation/widgets/input.dart';
 
 class RegisterPage extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();

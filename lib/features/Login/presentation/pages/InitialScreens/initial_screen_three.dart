@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:testapp/features/Login/presentation/pages/InitialScreens/login_or_register.dart';
-import 'package:testapp/features/Login/presentation/pages/InitialScreens/widgets/Information.dart';
-import 'package:testapp/features/Login/presentation/pages/InitialScreens/widgets/page_indicator.dart';
+import 'package:testapp/features/Login/presentation/widgets/Information.dart';
+import 'package:testapp/features/Login/presentation/widgets/page_indicator.dart';
 
 class InitialScreenThree extends StatelessWidget {
   const InitialScreenThree({super.key});

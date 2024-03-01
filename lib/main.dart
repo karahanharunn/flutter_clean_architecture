@@ -5,6 +5,7 @@ import 'package:testapp/features/Login/presentation/pages/InitialScreens/initial
 import 'package:testapp/features/Login/presentation/pages/InitialScreens/login_or_register.dart';
 import 'package:testapp/features/Login/presentation/pages/login_page.dart';
 import 'package:testapp/features/Login/presentation/pages/register_page.dart';
+import 'package:testapp/layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
           fontFamily: "Poppins"),
-      initialRoute: '/initial_page_first',
+      initialRoute: '/layout',
       routes: {
         "/": (context) => InitialScreenOne(),
         '/initial_page_first': (context) => InitialScreenOne(),
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         '/login_or_register': (context) => LoginOrRegister(),
         '/register': (context) => RegisterPage(),
         '/login': (context) => LoginPage(),
+        '/layout': (context) => Layout(),
       },
     );
   }
